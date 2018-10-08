@@ -1,5 +1,5 @@
 // Завдання 1, 2
-function Car(brand, fuelTank, ownerFullName){
+function Car(brand, fuelTank, ownerFullName = "John Doe"){
     if (ownerFullName.trim().split(/\s+/).length == 2 ){
         this.ownerFullName = ownerFullName;
     } else {

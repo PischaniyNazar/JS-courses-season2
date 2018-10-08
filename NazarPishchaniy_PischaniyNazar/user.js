@@ -7,7 +7,7 @@ let user = {
 // Метод для отримання даних про об'єкт за допомогою дескриптору
 Object.defineProperty(user, "information", {
     get: function() {
-        return this.name + ' ' + this.age + ' ' + this.occupation;
+        return `${this.name} ${this.age} ${this.occupation}`;
       }
 });
 
