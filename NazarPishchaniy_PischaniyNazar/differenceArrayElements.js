@@ -1,9 +1,9 @@
 // Завдання 3
-function difference(arr1, arr2){
+function difference(array1, array2){
     let newArray = [];
-    arr1.forEach(function(elementArr1){
-        if (arr2.indexOf(elementArr1) === -1){
-            newArray.push(elementArr1);
+    array1.forEach(function(elementArray1){
+        if (array2.indexOf(elementArray1) === -1){
+            newArray.push(elementArray1);
         }
     })
     return newArray;
